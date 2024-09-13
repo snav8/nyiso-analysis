@@ -1,1 +1,2 @@
-# personal-projects
+# About nyiso-analysis repo
+<p>The New York Independent System Operator (NYISO) is a not-for-profit organization that manages New York's electricity grid and wholesale electricity markets. This project contains Python code utilizing Pandas and PySpark for scraping the nyiso website for day ahead data, transforming it, and saving to a Databricks Delta Table. The data has also been saved into nyiso_lbmp.csv. From here, we can use SQL queries on the Databricks table to aggregate and answer any questions we may have about the data. The index.html file contains a series of SQL queries and visualizations of their results.</p>
