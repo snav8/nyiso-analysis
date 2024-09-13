@@ -3,6 +3,6 @@
 <ul>
   <li>nyiso_etl.ipynb contains the ETL code for pulling the data from nyiso's daily csv files. Some basic transformations such as data type transformations, and column renamings are done in Pandas, then converted to a PySpark dataframe to save as a Delta table in Databricks.</li>
   <li>nyiso_sql.sql contains the Databricks Spark SQL queries on the nyiso data.</li>
-  <li>index.html is the webpage code for nyiso_sql, which will let you view the visualizations of the SQL queries.</li>
+  <li>index.html is the webpage code for nyiso_sql, which will let you view the visualizations of the SQL queries <a href = "https://snav8.github.io/nyiso-analysis/">here</a>.</li>
   <li>nyiso_lbmp.csv is the compiled data dating back to 2017 scraped from the nyiso website.</li>
 </ul>
